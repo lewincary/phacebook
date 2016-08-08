@@ -1,0 +1,9 @@
+input {
+	display: block;
+	
+}
+
+#regMessage {
+	font-style: 30px;
+	color: red;
+}

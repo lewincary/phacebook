@@ -1,0 +1,46 @@
+<body>
+	<h> Login Page </h>	
+	
+	
+	<div>
+				
+		Login:
+		<input type="text" ng-model='loginName'> </input> 
+		Password:
+		<input type="password" ng-model='loginPassword'> </input> 
+		<button id="loginButton"> Login </button>
+		
+	</div>
+	<div> {{cID}}</div>
+	<div> {{result}}</div>
+
+	<h> Registration </h>	
+	
+	<div> Don't have an account? Sign up below: </div>
+	
+	<div>
+				
+		Username:
+		<input type="text" ng-model='regUsername'> </input> 
+		Password: (type it twice pls)
+		<input type="password" ng-model='regPassword1'> </input> 
+		<input type="password" ng-model='regPassword2'> </input> 
+		First Name:
+		<input type="text" ng-model='regFirstName'> </input> 
+		Last Name:
+		<input type="text" ng-model='regLastName'> </input> 
+		Location:
+		<input type="text" ng-model='regLocation'> </input> 
+		Description:
+		<input type="text" ng-model='regDescription'> </input> 
+		Occupation:
+		<input type="text" ng-model='regOccupation'> </input> 
+		
+		<div id="regMessage"> {{regMessage}}</div>
+
+		<button id="registerButton"> Register Me </button>
+			
+	</div>
+
+
+</body>

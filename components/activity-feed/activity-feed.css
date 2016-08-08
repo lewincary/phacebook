@@ -1,0 +1,36 @@
+.activity {
+	margin: 20px;
+	padding: 10px;
+	border: 2px;
+	border-style: solid;
+	border-color: black;
+	font-size: 15px;
+}
+
+.type {
+	font: Courier;
+	font-size: 20px;
+	font-style: bold;
+	color: #9cabe3;
+}
+
+.name {
+	font: Courier;
+	font-size: 20px;
+	font-style: bold;
+	color: #495171;
+}
+
+.date {
+	font: Courier;
+	font-size: 20px;
+	font-style: bold;
+	color: #b7c2b2;
+}
+
+.thumbnail {
+	margin: auto;
+	display: block;
+	width: 10%;
+	height: 10%;
+}

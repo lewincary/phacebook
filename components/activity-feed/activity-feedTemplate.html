@@ -1,0 +1,16 @@
+<body>
+
+	<h> Activity Feed </h>	
+	
+	<div> Feed of the most relevant recent activity. </div>
+	<button id="refreshButton" ng-click="refreshFunction()"> Refresh Feed </button>
+	<div>
+		
+		<div ng-repeat="activity in activitylist | orderBy: '-date_time' | limitTo:20 " class="activity">
+			<div> 
+				<span class="type">{{activity.type}} </span> by <span class ="name">{{activity.first_name}} {{activity.last_name}} </span> on <span class="date">{{activity.date_time}} </span></span>
+				<img ng-if="activity.file_name" ng-src="images/{{activity.file_name}}" class="thumbnail"> </img>
+			
+		</div>	
+	</div>
+</body>

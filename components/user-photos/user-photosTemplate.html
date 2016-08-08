@@ -1,0 +1,25 @@
+
+<button ng-click="photosON = false"> <a href="#/users/{{curID}}"> Details</a> </button>
+<button ng-click="photosON = true">  <a href="#/photos/{{curID}}"> Photos</a> </button>
+
+<body>
+<h> {{context}} </h>	
+<div ng-repeat="photo in photos">
+   <img ng-src="images/{{photo.file_name}}" width="200px" height="200px"  class="photo" ></img>
+   <button ng-if="photo.user_id === user_id" ng-click="deletePhoto(photo._id)"> Delete Photo</button>
+   <div ng-repeat="comment in photo.comments" = class="comment">
+   		<div class="commentAttribute"> Comment made on: {{comment.date_time}} </div>				
+		<div class="commentAttribute"> Comment maker: <a href="#/users/{{comment.user._id}}">  {{comment.user.first_name}} {{comment.user.last_name}}
+		</a> </div>
+
+		<div class="commentAttribute"> Comment: {{comment.comment}} </div>
+		<button ng-if="comment.user._id === user_id" ng-click="deleteComment(comment._id, photo._id)"> Delete Comment</button>
+   </div>
+   <input type="text" ng-model='actualComment'> </input> 
+   <button id="commentButton" class="photo._id" ng-click="commentFunction(actualComment, photo._id, photo.file_name)"> Submit Comment </button>
+   <button id="likeButton" ng-click="likeFunction(photo._id, $event)">Like!</button>
+   <span = id={{photo._id}}> Likes: {{photo.likes.length}} </span> 
+
+</div>
+
+</body>

@@ -1,0 +1,68 @@
+/*
+CSS for the CS142 project #5 main page
+
+Since CSS uses a global name space for classes we should use class names starting with
+cs142-main- here.
+*/
+
+.myName {
+	position: relative;
+	top: 20px;
+	left: 5px;
+}
+
+button {
+	font-size: 10px;
+}
+
+.context {
+	position: fixed;
+	top: 35px;
+	right: 5px;
+	font-style: italic;
+}
+
+.logMessage {
+	font-size: 20px;
+	font-style: bold;
+	color: #c59cff;
+	position: fixed;
+	top: 10px;
+	right: 5px;
+}
+
+#logoutButton {
+	position: fixed;
+	top: 15px;
+	left: 180px;
+	font-size: 20px;
+}
+
+#uploadButton {
+	position: fixed;
+	top: 5px;
+	left: 286px;
+	font-size: 15px;
+}
+
+#chooseFileButton {
+	position: fixed;
+	top: 32px;
+	left: 288px;
+	font-size: 20px;
+}
+
+#deleteButton {
+	position: fixed;
+	top: 18px;
+	right: 300px;
+	font-size: 20px;
+}
+
+#activityButton {
+	position: fixed;
+	top: 18px;
+	right: 430px;
+	font-size: 20px;
+}
+

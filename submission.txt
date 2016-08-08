@@ -1,0 +1,36 @@
+Project #8 - Submission form
+
+Please fill in this form and submit it with your project #8.
+
+Enter no more than 5 user stories that you did for the assignment that you would like to be
+graded on. For each story include the following information:
+------------------------------------------------------------
+Story number and name: Activity Feed - 4
+Story points: 4
+Brief description to see the story in action:
+Push the button labeled Activity on the toolbar and view the 20 most recent activities of the users on the website.
+
+Total Story Points: 4
+------------------------------------------------------------
+Story number and name: Deleting Comments, Photos and Users - 5
+Story points: 4
+Brief description to see the story in action:
+As the logged in user you can delete any action performed by you. ie. if you uploaded a photo then you can delete it, or any comments that you have made on photos. You can also delete your account, which erases your presence from the site (no login, photos or comments).
+
+Total Story Points: 8
+------------------------------------------------------------
+Story number and name: Photo Like Votes - 6
+Story points: 4
+Brief description to see the story in action:
+As the logged in user you can 'like' and 'unlike' photos, with the most liked photos being displayed higher on the page.
+
+Total Story Points: 12
+------------------------------------------------------------
+
+Marketing Video URL (ensure permissions are set to public viewing): https://youtu.be/YI6ESMhvPkE
+
+Is it OK with you if we post your Marketing Video URL on the class discussion forum? No
+
+Any special instructions for Grading (should be easy to run app from new machine): None
+
+

@@ -1,0 +1,28 @@
+.photos {
+	list-style-type: none;
+	margin: 20px;
+	
+}
+
+.commentAttribute {
+	display: block;
+}
+
+.comment {
+	margin: 10px;
+	border: 2px;
+	border-style: solid;
+	border-color: black;
+}
+
+.photo {
+	margin: 10px;
+	margin-left: 40px;
+	height: 35%;
+    width: 35%;
+}
+
+button {
+	margin: 2px;
+	font-size: 30px;
+}
